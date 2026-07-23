@@ -15,3 +15,5 @@ sed -i "s/MY_CRATE_NAME/${NEW_NAME}/g" Cargo.toml
 sed -i "s/MY_CRATE_NAME/${NEW_NAME}/g" readme.md
 sed -i "s/MY_CRATE_NAME/${NEW_NAME}/g" .github/workflows/release.yml
 sed -i "s/MY_CRATE_NAME/${NEW_NAME}/g" src/main.rs
+sed -i "s/MY_CRATE_NAME/${NEW_NAME}/g" recompile_web.sh
+sed -i "s/MY_CRATE_NAME/${NEW_NAME}/g" local_build_and_run_web.sh
