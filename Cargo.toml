@@ -6,7 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-macroquad = "=0.3.24"
+#macroquad = "=0.4.15"
+macroquad = { git = "https://github.com/not-fl3/macroquad.git", rev = "92279a746405949138616714918fc0f120171352" }
 
 [profile.release]
 strip = true
